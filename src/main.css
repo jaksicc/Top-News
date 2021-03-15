@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: lightblue;
+    margin-bottom: 50px;
+    
+}
+.header nav {
+    margin: auto;
+    display: flex;
+}
+.list-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list-items li{
+    margin: 20px;
+}
+.buttons {
+    margin: auto;
+}
+.news-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.news-thumbnail {
+    border: 2px solid black;
+    width: 500px;
+    margin-bottom: 25px;
+}
