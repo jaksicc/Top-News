@@ -8,7 +8,7 @@ const Header = ({setCountry}) => {
             <nav>
                 <ul className='list-items'>
                     <li>
-                        <Link to='/'>Top News</Link>
+                        <Link to='/topnews'>Top News</Link>
                     </li>
                     <li>
                         <Link to='/categories'>Categories</Link>

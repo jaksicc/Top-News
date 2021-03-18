@@ -23,10 +23,17 @@
 .news-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.news-thumbnail {
-    border: 2px solid black;
-    width: 500px;
-    margin-bottom: 25px;
+
+.news-image {
+    width: 400px;
+}
+.headline-title {
+    margin: 10px;
+    font-weight: 700;
+    font-size: larger;
+}
+.headline-description {
+    margin: 10px;
 }
